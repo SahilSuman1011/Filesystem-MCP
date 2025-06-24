@@ -17,9 +17,9 @@ A modern, file management application built with **Model Context Protocol (MCP)*
 
 ### ⚙️ Server Features:
 
-- MCP-compliant server with stdio transport
-- Tools: create_file, read_file, edit_file, delete_file,list_files
-- Error handling and process management
+- ✅ MCP-compliant server with stdio transport
+- ✅ Tools: create_file, read_file, edit_file, delete_file,list_files
+- ✅ Error handling and process management
 
 ### 🎨 Modern UI/UX
 - **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
