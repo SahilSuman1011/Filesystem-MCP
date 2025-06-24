@@ -16,11 +16,8 @@ A modern, AI-powered file management application built with **Model Context Prot
 - **🗂️ File Browser**: Intuitive file explorer with type indicators
 
 ### 🎨 Modern UI/UX
-- **🌙 Dark/Light Mode**: Toggle between themes with smooth transitions
 - **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **🎭 Smooth Animations**: Engaging micro-interactions and loading states
-- **🎨 Gradient Backgrounds**: Beautiful color schemes and modern styling
-- **💫 Glass Morphism**: Contemporary frosted glass effects
 
 ### 🔧 Technical Features
 - **⚡ MCP Protocol**: Standards-compliant Model Context Protocol implementation
