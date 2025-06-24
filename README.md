@@ -1,4 +1,4 @@
-# 🚀 MCP Filesystem Manager
+# MCP Filesystem Manager
 
 A modern, file management application built with **Model Context Protocol (MCP)**, React, and Tailwind CSS. Upload folders, edit files with natural language prompts, and manage your filesystem through an intuitive web interface.
 
@@ -7,7 +7,7 @@ A modern, file management application built with **Model Context Protocol (MCP)*
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.4-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
 
-## ✨ Overall Features
+## Overall Features
 
 ### 🎯 Core Functionality
 - **📁 Folder Upload**: Drag & drop or browse to upload entire folder structures
@@ -31,7 +31,7 @@ A modern, file management application built with **Model Context Protocol (MCP)*
 - **🛡️ Error Handling**: Comprehensive error management and user feedback
 - **🚀 Performance Optimized**: Fast file operations and smooth UI interactions
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph TD
@@ -42,7 +42,16 @@ graph TD
     B -->|Protocol| F[MCP SDK]
 ```
 
-## 📋 Prerequisites
+ ## Usage
+- Open http://localhost:3000
+- Click "Choose Files" and select a folder (Files will be uploaded and listed - Click Refresh if not listed !)
+- Click on a file to view/edit content
+- Use prompt box for edits:
+- "add comment about X function"
+- "replace oldFunction with newFunction"
+- "delete line 5"
+
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -56,7 +65,7 @@ node --version  # Should be 18.0+
 npm --version   # Should be 8.0+
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1️⃣ Clone the Repository
 ```bash
