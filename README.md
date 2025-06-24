@@ -1,19 +1,25 @@
 # 🚀 MCP Filesystem Manager
 
-A modern, AI-powered file management application built with **Model Context Protocol (MCP)**, React, and Tailwind CSS. Upload folders, edit files with natural language prompts, and manage your filesystem through an intuitive web interface.
+A modern, file management application built with **Model Context Protocol (MCP)**, React, and Tailwind CSS. Upload folders, edit files with natural language prompts, and manage your filesystem through an intuitive web interface.
 
 ![MCP Filesystem Manager](https://img.shields.io/badge/MCP-Filesystem%20Manager-blue?style=for-the-badge&logo=react)
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.4-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
 
-## ✨ Features
+## ✨ Overall Features
 
 ### 🎯 Core Functionality
 - **📁 Folder Upload**: Drag & drop or browse to upload entire folder structures
 - **📝 File Management**: Create, read, edit, and delete files seamlessly
 - **🔄 Real-time Updates**: Live file content viewing and editing
 - **🗂️ File Browser**: Intuitive file explorer with type indicators
+
+### Server Features:
+
+- MCP-compliant server with stdio transport
+- Tools: create_file, read_file, edit_file, delete_file,list_files
+- Error handling and process management
 
 ### 🎨 Modern UI/UX
 - **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
